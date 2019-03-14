@@ -1,0 +1,87 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0">
+    <CLASSES>
+      <root url="jar://D:/kafkajar/aopalliance-1.0.jar!/" />
+      <root url="jar://D:/kafkajar/aopalliance-repackaged-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/asm-all-repackaged-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/bean-validator-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/class-model-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/classmate-1.0.0.jar!/" />
+      <root url="jar://D:/kafkajar/config-types-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/core-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/fastjson-1.2.54.jar!/" />
+      <root url="jar://D:/kafkajar/hamcrest-core-1.3.jar!/" />
+      <root url="jar://D:/kafkajar/hamcrest-library-1.3.jar!/" />
+      <root url="jar://D:/kafkajar/hibernate-validator-5.1.3.Final.jar!/" />
+      <root url="jar://D:/kafkajar/hk2-api-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/hk2-config-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/hk2-locator-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/hk2-runlevel-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/hk2-utils-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/jackson-annotations-2.4.6.jar!/" />
+      <root url="jar://D:/kafkajar/jackson-core-2.4.6.jar!/" />
+      <root url="jar://D:/kafkajar/jackson-databind-2.4.6.jar!/" />
+      <root url="jar://D:/kafkajar/jackson-jaxrs-base-2.3.2.jar!/" />
+      <root url="jar://D:/kafkajar/jackson-jaxrs-json-provider-2.3.2.jar!/" />
+      <root url="jar://D:/kafkajar/jackson-module-jaxb-annotations-2.3.2.jar!/" />
+      <root url="jar://D:/kafkajar/javassist-3.18.1-GA.jar!/" />
+      <root url="jar://D:/kafkajar/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://D:/kafkajar/javax.inject-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/javax.ws.rs-api-2.0.1.jar!/" />
+      <root url="jar://D:/kafkajar/jboss-logging-3.1.3.GA.jar!/" />
+      <root url="jar://D:/kafkajar/jcl-over-slf4j-1.7.12.jar!/" />
+      <root url="jar://D:/kafkajar/jersey-bean-validation-2.14.jar!/" />
+      <root url="jar://D:/kafkajar/jersey-client-2.14.jar!/" />
+      <root url="jar://D:/kafkajar/jersey-common-2.14.jar!/" />
+      <root url="jar://D:/kafkajar/jersey-container-servlet-2.14.jar!/" />
+      <root url="jar://D:/kafkajar/jersey-container-servlet-core-2.14.jar!/" />
+      <root url="jar://D:/kafkajar/jersey-guava-2.14.jar!/" />
+      <root url="jar://D:/kafkajar/jersey-media-json-jackson-2.14.jar!/" />
+      <root url="jar://D:/kafkajar/jersey-server-2.14.jar!/" />
+      <root url="jar://D:/kafkajar/jersey-spring3-2.14.jar!/" />
+      <root url="jar://D:/kafkajar/jline-0.9.94.jar!/" />
+      <root url="jar://D:/kafkajar/jopt-simple-3.2.jar!/" />
+      <root url="jar://D:/kafkajar/jul-to-slf4j-1.7.12.jar!/" />
+      <root url="jar://D:/kafkajar/junit-4.12.jar!/" />
+      <root url="jar://D:/kafkajar/kafka-clients-0.9.0.0.jar!/" />
+      <root url="jar://D:/kafkajar/kafka_2.11-0.9.0.0.jar!/" />
+      <root url="jar://D:/kafkajar/log4j-1.2.17.jar!/" />
+      <root url="jar://D:/kafkajar/lz4-1.2.0.jar!/" />
+      <root url="jar://D:/kafkajar/metrics-core-2.2.0.jar!/" />
+      <root url="jar://D:/kafkajar/mockito-core-1.10.19.jar!/" />
+      <root url="jar://D:/kafkajar/netty-3.7.0.Final.jar!/" />
+      <root url="jar://D:/kafkajar/objenesis-2.1.jar!/" />
+      <root url="jar://D:/kafkajar/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://D:/kafkajar/scala-library-2.11.7.jar!/" />
+      <root url="jar://D:/kafkajar/scala-parser-combinators_2.11-1.0.4.jar!/" />
+      <root url="jar://D:/kafkajar/scala-xml_2.11-1.0.4.jar!/" />
+      <root url="jar://D:/kafkajar/slf4j-api-1.7.12.jar!/" />
+      <root url="jar://D:/kafkajar/slf4j-log4j12-1.7.12.jar!/" />
+      <root url="jar://D:/kafkajar/snakeyaml-1.14.jar!/" />
+      <root url="jar://D:/kafkajar/snappy-java-1.1.1.7.jar!/" />
+      <root url="jar://D:/kafkajar/spring-aop-4.1.7.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/spring-beans-4.1.7.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/spring-boot-1.2.5.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/spring-boot-autoconfigure-1.2.5.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/spring-bridge-2.4.0-b06.jar!/" />
+      <root url="jar://D:/kafkajar/spring-context-4.1.7.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/spring-core-4.1.7.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/spring-expression-4.1.7.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/spring-test-4.1.7.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/spring-web-4.1.7.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/spring-webmvc-4.1.7.RELEASE.jar!/" />
+      <root url="jar://D:/kafkajar/tiger-types-1.4.jar!/" />
+      <root url="jar://D:/kafkajar/tomcat-embed-core-8.0.23.jar!/" />
+      <root url="jar://D:/kafkajar/tomcat-embed-el-8.0.23.jar!/" />
+      <root url="jar://D:/kafkajar/tomcat-embed-logging-juli-8.0.23.jar!/" />
+      <root url="jar://D:/kafkajar/tomcat-embed-websocket-8.0.23.jar!/" />
+      <root url="jar://D:/kafkajar/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://D:/kafkajar/zkclient-0.7.jar!/" />
+      <root url="jar://D:/kafkajar/zookeeper-3.4.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/kafkajar/mockito-core-1.10.19.jar!/" />
+    </SOURCES>
+  </library>
+</component>
