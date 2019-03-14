@@ -17,6 +17,7 @@ public class Main {
         public static void main(String[] args) {
         Properties props = new Properties();
         // zookeeper 配置
+
         props.put("zookeeper.connect", "10.180.225.235:2181,10.180.225.236:2181,10.180.225.237:2181");//10.189.100.6:2181,10.189.100.7:2181,10.189.100.8:2181//10.180.225.235:2181,10.180.225.236:2181,10.180.225.237:2181
         // group 代表一个消费组props.put("bootstrap.servers", "10.180.225.235:9092,10.180.225.236:9092,10.180.225.237:9092");
         props.put("group.id", "group9_qs");
