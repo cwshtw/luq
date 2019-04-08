@@ -27,6 +27,7 @@ public class Main {
         props.put("zookeeper.sync.time.ms", "200");
         props.put("auto.commit.interval.ms", "1000");
         props.put("rebalance.max.retries", "5");
+
         props.put("rebalance.backoff.ms", "1200");
         props.put("auto.offset.reset", "smallest");
         //props.put("advertised.host.name", "qs");
