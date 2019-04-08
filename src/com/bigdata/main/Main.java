@@ -11,18 +11,17 @@ import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.util.*;
 
-/**
- * hhhh
- */
 public class Main {
     private static org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(Main.class);
 
         public static void main(String[] args) {
+            //10.189.100.6:9092,10.189.100.7:9092,10.189.100.8:9092 G_S_USER_NEWS qsgropu0
+            //10.180.225.235:9092,10.180.225.236:9092,10.180.225.237:9092 LH_YD_dataAnalysisPro qsgropu0
         Properties props = new Properties();
         // zookeeper 配置
-        props.put("zookeeper.connect", "10.180.225.235:2181,10.180.225.236:2181,10.180.225.237:2181");//10.189.100.6:2181,10.189.100.7:2181,10.189.100.8:2181//10.180.225.235:2181,10.180.225.236:2181,10.180.225.237:2181
-        // group 代表一个消费组props.put("bootstrap.servers", "10.180.225.235:9092,10.180.225.236:9092,10.180.225.237:9092");
-        props.put("group.id", "group9_qs");
+        props.put("zookeeper.connect", args[0]);//"10.180.225.235:2181,10.180.225.236:2181,10.180.225.237:2181");//10.189.100.6:2181,10.189.100.7:2181,10.189.100.8:2181//10.180.225.235:2181,10.180.225.236:2181,10.180.225.237:2181
+        // group 代表一个消费组props.put("bootstrap.servers", "10.180.225.235:9092,10.180.225.236:9092,10.180.225.237:9092");//10.189.100.6:9092,10.189.100.7:9092,10.189.100.8:9092
+        props.put("group.id",args[2]);// "group9_qs");
         // zk连接超时
         props.put("zookeeper.session.timeout.ms", "5000");
         props.put("zookeeper.sync.time.ms", "200");
@@ -36,7 +35,7 @@ public class Main {
         ConsumerConfig config = new ConsumerConfig(props);
         ConsumerConnector consumer = kafka.consumer.Consumer.createJavaConsumerConnector(config);
         Map<String, Integer> topicCountMap = new HashMap<String, Integer>();
-        String topicName="LH_YD_dataAnalysisPro";//"LH_YD_dataAnalysisPro";
+        String topicName=args[1];//"LH_YD_dataAnalysisPro";G_S_USER_NEWS
         topicCountMap.put(topicName, new Integer(1));
         Map<String, List<KafkaStream<byte[], byte[]>>> consumerMap = consumer.createMessageStreams(topicCountMap);
         KafkaStream<byte[], byte[]> stream = consumerMap.get(topicName).get(0);
@@ -45,6 +44,10 @@ public class Main {
             String msg = new String(it.next().message());
             System.out.println(""+msg);
         }
+
+
+
+        //===================================
     }
 //    public static void main(String[] args) {
 //        Properties props = new Properties();
